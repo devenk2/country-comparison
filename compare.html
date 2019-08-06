@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="cstyle.css">
+	<title>Compare Countries</title>
+</head>
+<body>
+	
+
+	<h1 class="title">Compare Countries</h1>
+
+	<div class="row">
+		<form id="form" action="kids.php" method="get">
+			<div class="column" id="left">
+				<h3>Select a Country</h3>
+				 <div class="dropdown">
+	  				
+	  					<select id="dropdownl" name=dropdownl>
+	  						<option disabled="true" value="Country">Country</option>
+	  						<option value="canada">Canada</option>
+	  						<option value="mexico">Mexico</option>
+	  						<option value="bolivia">Bolivia</option>
+	  						<option value="china">China</option>
+	  						<option value="chile">Chile</option>
+	  						<option value="italy">Italy</option>
+	  						<option value="spain">Spain</option>
+	  						<option value="japan">Japan</option>
+						</select> 
+						
+						<!-- onclick="grabDdValue()" -->
+					
+				</div> 
+				<div id="textHolder">
+					<!-- This is where the resulted code should be inserted -->
+				</div>
+			</div>
+			<div class="column" id="right">
+				<h3>Select a Country</h3>
+				<div class="dropdown">
+	  				
+	  					<select id="dropdownr" name=dropdownr>
+	  						<option disabled="true" value="Country">Country</option>
+	  						<option value="canada">Canada</option>
+	  						<option value="mexico">Mexico</option>
+	  						<option value="bolivia">Bolivia</option>
+	  						<option value="china">China</option>
+	  						<option value="chile">Chile</option>
+	  						<option value="italy">Italy</option>
+	  						<option value="spain">Spain</option>
+	  						<option value="japan">Japan</option>
+						</select> 
+						
+				</div> 
+			</div>
+			<input type="submit" value="Submit">
+		</form>
+	</div>
+	
+
+
+<script src="./app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+.title {
+	text-align: center;
+	background-color: springgreen;
+}
+
+input {
+	margin: auto 0;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  text-align: left;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#left {
+	background-color: pink;
+}
+
+ 
